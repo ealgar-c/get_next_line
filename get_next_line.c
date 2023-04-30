@@ -6,7 +6,7 @@
 /*   By: ealgar-c <ealgar-c@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/27 13:41:14 by ealgar-c          #+#    #+#             */
-/*   Updated: 2023/04/29 13:57:03 by ealgar-c         ###   ########.fr       */
+/*   Updated: 2023/04/30 14:17:38 by ealgar-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,14 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-char	*get_actual_line(char *acum_str)
+static char	*get_actual_line(char *acum_str)
 {
 	// esta funcion tiene que recibir el acum_str
 	// y pasar a otro str lo que haya hasta q acabe 
 	// o encuentre un \n y devolver este
 }
 
-char	*get_stoned(char *acum_str, char *tmp)
+static char	*get_stoned(char *acum_str, char *tmp)
 {
 	char	*ret;
 
@@ -31,7 +31,7 @@ char	*get_stoned(char *acum_str, char *tmp)
 	return (ret);
 }
 
-char	*get_buffed(int fd, char *acum_str)
+static char	*get_buffed(int fd, char *acum_str)
 {
 	char	*tmp;
 	int		i;
@@ -68,7 +68,7 @@ char	*get_next_line(int fd)
 	act_line = get_actual_line(acum_str);
 }
 
-int	main(void)
+/* int	main(void)
 {
 	int	fd;
 
@@ -79,4 +79,4 @@ int	main(void)
 	}
 	close(fd);
 	return (0);
-}
+} */
