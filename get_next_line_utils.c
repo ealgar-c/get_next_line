@@ -6,11 +6,11 @@
 /*   By: ealgar-c <ealgar-c@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/30 14:12:45 by ealgar-c          #+#    #+#             */
-/*   Updated: 2023/04/30 14:15:16 by ealgar-c         ###   ########.fr       */
+/*   Updated: 2023/05/01 13:45:38 by ealgar-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "get_next_line.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
@@ -37,4 +37,49 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	}
 	ret_str[i + a] = '\0';
 	return (ret_str);
+}
+
+void	*ft_calloc(size_t num, size_t size)
+{
+	char	*ptr;
+	size_t	i;
+
+	ptr = (char *)malloc(size * num);
+	if (!ptr)
+		return (0);
+	i = 0;
+	while (i < (num * size))
+	{
+		ptr[i] = '\0';
+		i++;
+	}
+	return (ptr);
+}
+
+int	ft_strlen(const char *str)
+{
+	int	cont;
+
+	cont = 0;
+	while (str[cont] != '\0')
+	{
+		cont++;
+	}
+	return (cont);
+}
+
+int	ft_strchr_mod(char *s, int c)
+{
+	int	i;
+
+	i = 0;
+	if (!s)
+		return (0);
+	while (s[i])
+	{
+		if (s[i] == (char)c)
+			return (1);
+		i++;
+	}
+	return (0);
 }
