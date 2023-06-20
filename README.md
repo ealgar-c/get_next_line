@@ -1,5 +1,5 @@
 <div align="center">
-	<h1> Get_next_line </h1>
+	<h1> get_next_line </h1>
 	<p>Porque leer una lina de un fd es demasiado aburrido</p>
 	<img src="https://wakatime.com/badge/user/a0e860d2-9914-4fed-8143-b9fd5cf5e6c1/project/dfd6acc0-63ec-4b5f-80e4-680c75e7c025.svg?style=flat"/>
 	<br />
