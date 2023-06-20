@@ -1,11 +1,11 @@
 <div align="center">
 	<h1> Get_next_line </h1>
-	<p>Proyect short description</p>
-	<img src="WAKATIME BADGE?style=flat"/>
+	<p>Porque leer una lina de un fd es demasiado aburrido</p>
+	<img src="https://wakatime.com/badge/user/a0e860d2-9914-4fed-8143-b9fd5cf5e6c1/project/dfd6acc0-63ec-4b5f-80e4-680c75e7c025.svg?style=flat"/>
 	<br />
 	<img src="https://img.shields.io/badge/norme-OK-success?style=flat"/>
 	<img src="https://img.shields.io/badge/leaks-CLEAR-success?style=flat"/>
-	<img src="https://img.shields.io/badge/-105%2F100-inactive?style=flat&logo=42&logoColor=000" />
+	<img src="https://img.shields.io/badge/-105%2F100-success?style=flat&logo=42&logoColor=000" />
 </div>
 
 <h2 align="center">📜 PROYECT DESCRIPTION 📜</h2>
